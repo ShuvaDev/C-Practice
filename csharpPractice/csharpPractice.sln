@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndStream", "FileAndStream\FileAndStream.csproj", "{5B371754-27F1-47D0-97A2-F974217527CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportantInterfaces", "ImportantInterfaces\ImportantInterfaces.csproj", "{6008E225-47E6-437B-AB8F-5993CDDE4881}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{5B371754-27F1-47D0-97A2-F974217527CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B371754-27F1-47D0-97A2-F974217527CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B371754-27F1-47D0-97A2-F974217527CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6008E225-47E6-437B-AB8F-5993CDDE4881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6008E225-47E6-437B-AB8F-5993CDDE4881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6008E225-47E6-437B-AB8F-5993CDDE4881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6008E225-47E6-437B-AB8F-5993CDDE4881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

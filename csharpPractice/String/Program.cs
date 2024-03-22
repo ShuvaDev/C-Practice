@@ -11,7 +11,7 @@ Console.WriteLine(String.Format("{0:00.000}", a));
 string str = "shuva";
 Console.WriteLine(str.CompareTo("thuva")); // -1
 
-Console.WriteLine(String.Compare(str, "phuva")); // 1 // Here true represents ignorecase
+Console.WriteLine(String.Compare(str, "phuva", true)); // 1 // Here true represents ignorecase
 
 // Compare Ordinals
 string s1 = "Abc", s2 = "abc";
@@ -85,6 +85,3 @@ Console.WriteLine(s1.Trim()); // "shuva"
 
 // TrimStart function
 Console.WriteLine(s1.TrimStart()); // "shuva    "
-
-
-//I have been practicing all of the math
