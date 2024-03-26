@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace EntityFramework
 {
@@ -46,10 +48,15 @@ namespace EntityFramework
 
             modelBuilder.Entity<CourseEnrollment>()
                 .HasOne(x => x.Course)
-                .WithMany(y => y.CourseEnrollments)
+            .WithMany(y => y.CourseEnrollments)
                 .HasForeignKey(z => z.CourseId);
 
-
+            //Switching off Identity for Numeric Primary Key
+            /*
+            modelBuilder.Entity<Topic>()
+                .Property(t => t.Id)
+                .ValueGeneratedNever(); // // Turn off identity/auto-increment
+            */
             base.OnModelCreating(modelBuilder);
         }
 
