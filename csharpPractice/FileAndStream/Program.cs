@@ -32,6 +32,7 @@ if(fileInfo.Exists)
     fileInfo.Delete();
 }
 
+// FileStream stream = File.Open("test.txt", FileMode.OpenOrCreate);
 using (FileStream stream = fileInfo.Open(FileMode.OpenOrCreate))
 {
     string streamContent = "This is a text";
