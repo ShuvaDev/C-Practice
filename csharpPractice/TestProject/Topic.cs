@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    public interface ICar
+    public class Topic
     {
-        void Start();
-        void Stop();
+        public string TopicName;
     }
 }

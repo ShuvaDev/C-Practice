@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestProject
+namespace ReflectionExample
 {
-    public class BMW : ICar
+    public class Toyota : ICar
     {
         public void Start()
         {
-            Console.WriteLine("BMW Started");
+            Console.WriteLine("Toyota Started");
         }
+
         public void Stop()
         {
-            Console.WriteLine("BMW Stopped");
+            Console.WriteLine("Toyota Stopped");
         }
     }
 }

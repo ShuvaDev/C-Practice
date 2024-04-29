@@ -16,7 +16,7 @@ public class EInterface : IntA, IntB
     {
         Console.WriteLine("Interface A");
     }
-    // For explicit interface the method should be private
+    // For explicit interface the method should be written without any access specifier
     void IntB.Print()
     {
         Console.WriteLine("Interface B");

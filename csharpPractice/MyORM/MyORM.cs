@@ -29,5 +29,17 @@ namespace Assignment3
         {
 
         }
+        public void Delete(G id)
+        {
+
+        }
+        public void GetById(G id)
+        {
+
+        }
+        public void GetAll()
+        {
+
+        }
     }
 }
